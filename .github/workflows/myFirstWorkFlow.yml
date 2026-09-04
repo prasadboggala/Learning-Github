@@ -36,7 +36,6 @@ jobs:
           echo test, and deploy your project.
 
 jobs2:
-  name: JOB2
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
@@ -51,7 +50,6 @@ jobs2:
       - name: checking runner info
         run: get-conputerinfo
 jobs3:
-  name: JOB3
   needs: [jobs,job2]
   # This workflow contains a single job called "build"
   build:
