@@ -34,17 +34,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          
-job2:
-  name: JOB2
-  runs-on: ubuntu-latest
-  steps: 
-    -name: Checking the Hostname for Runner
-    run: hostname
-    -name: Running multiple commands
-    run: |
-        echo "Hi From Prasad Boggala"
-        echo "Current time is `date`"
-        sleep 20
         
   
